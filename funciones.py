@@ -9,8 +9,8 @@ def crear_tablero(tamaño):
 #Ponemos las coordenas de los barcos en formato tupla y le asignamos el valor de "O"
 def colocar_barco(barco, tablero):
     for casilla in barco:
-        fila, columna = casilla  # Extraemos fila y columna de cada tupla
-        tablero[fila, columna] = "O"  # Colocamos "O" en las coordenadas especificadas
+        fila, columna = casilla  #Extraemos fila y columna de cada tupla
+        tablero[fila, columna] = "O"  #Colocamos "O" en las coordenadas especificadas
     return tablero
 
 
